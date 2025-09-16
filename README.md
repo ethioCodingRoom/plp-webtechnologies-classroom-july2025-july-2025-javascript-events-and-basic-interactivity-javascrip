@@ -1,58 +1,58 @@
-# 🧠 Assignment: Interactive Web Pages with JavaScript
+# EthioCodingRoom | Interactive Portfolio Website
 
-Welcome to the exciting world of interactivity! This assignment is all about **making your web pages feel alive**. You’ll learn how to respond to user actions, build engaging components, and validate form input—without reloading the page. This is where JavaScript gets fun, practical, and powerful. 🚀
+## Introduction
 
----
+This project demonstrates essential concepts of **interactive web development with JavaScript**. It is a personal portfolio website for **Asres Gamu Yelia** and features a dynamic registration form for the **EthioCodingRoom Bootcamp**.
 
-## 🎉 Part 1: JavaScript Event Handling and Interactive Elements
-
-Let’s start with the basics of **event handling**. You'll set up JavaScript to listen for user actions like clicks, mouseovers, keyboard input, and more—and respond to them in meaningful ways.
-
-**Goal:** Use event listeners to react to user behavior and trigger changes on the page (e.g., showing messages, toggling classes, hiding/showing content).
+The main objectives were to enhance user experience by implementing JavaScript-based event handling, DOM manipulation, and client-side form validation.
 
 ---
 
-## 🎮 Part 2: Building Interactive Elements
+## What I Covered
 
-Now it’s time to apply what you’ve learned by creating your own mini interactive features. You can build things like:
+### 🎮 Part 1: Event Handling
 
-* A light/dark mode toggle
-* A counter or button game
-* A collapsible FAQ section
-* A simple dropdown menu
-* A tabbed interface
+- Used `addEventListener()` to handle user interactions
+- Applied `mouseover` and `mouseout` events on navigation links to change their style dynamically
 
-**Goal:** Use DOM manipulation + events to make the page dynamic and engaging. Be creative!
+### Part 2: Interactive Elements
 
----
+- Created a **"Show More About Me"** button that toggles extra information in the **About Me** section
+- Dynamically manipulated the DOM to add and remove elements based on user actions
 
-## 📋✅ Part 3: Form Validation with JavaScript
+### Part 3: Form Validation
 
-Forms are essential to the web—and validating them properly is key to good user experience. You’ll build a form with multiple input fields (name, email, password, etc.) and write JavaScript to validate each field when the user submits or types.
-
-**Goal:** Prevent incorrect form submissions by writing custom validation logic using conditions and regular expressions. Show user-friendly error messages and success feedback.
-
----
-
-## Deliverables
-
-* `index.html`: Your structured web page with at least one form and several interactive sections
-* `script.js`: Your JavaScript file with:
-
-  * Event handling for buttons, inputs, or links
-  * At least 2 interactive features created from scratch
-  * A fully functioning custom form validation (no HTML5-only validation)
-* `style.css` (optional but encouraged): To style your interactive elements
-
-Each section of your JavaScript should be commented to explain its purpose.
+- Built custom client-side validation logic for the bootcamp registration form
+- Checked the following before form submission:
+  - Full Name: minimum 3 characters
+  - Email: valid format
+  - Phone: digits only, at least 10 characters
+  - Location: cannot be empty
+  - Interest: must be selected
+- Displayed friendly error messages without reloading the page
 
 ---
 
-## Outcome
+## Technologies Used
 
-* Use of event listeners and appropriate event types
-* Creativity and functionality of interactive elements
-* Form validation accuracy and helpfulness of feedback
-* Clear, modular, and well-commented JavaScript code
-* A clean and functional user experience
+- HTML5 for page structure
+- CSS3 for styling and layout
+- JavaScript (ES6) for logic and interactivity
 
+---
+
+## Project Files
+
+- `index.html` — Main webpage structure
+- `styles.css` — Custom styling (with dark theme and highlights)
+- `script.js` — JavaScript for interactivity and validation
+- `README.md` — This documentation
+
+---
+
+## How to Run This Project
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com//ethiocodingroom.git
