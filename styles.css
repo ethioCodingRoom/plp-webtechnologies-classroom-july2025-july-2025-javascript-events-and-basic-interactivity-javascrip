@@ -1,0 +1,187 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body style */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #f4f4f4;
+    line-height: 1.6;
+    padding: 24px;
+}
+
+/* Header section */
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 24px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+/* Main heading inside header */
+header h1 {
+    color: #4CAF50;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Subheading/description */
+header p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Navigation bar inside header */
+header nav {
+    margin-top: 16px;
+    background-color: #3a7ca5;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+/* Nav links */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    margin: 0 6px;
+    display: inline-block;
+}
+
+/* Nav link hover effect */
+nav a:hover {
+    background-color: #17496a;
+    border-radius: 4px;
+}
+
+/* Content Sections  */
+section {
+    background-color: #1e2a38;
+    padding: 24px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    border: 1px solid #3a7ca5;
+}
+
+/* Section headings */
+h2 {
+    color: #ffdd57;
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+/* Subheadings (e.g. skill categories) */
+h3 {
+    color: #a0e6ff;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1rem;
+    margin-bottom: 16px;
+    color: #eaeaea;
+}
+
+/* Unordered list styling */
+ul {
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+/* List item spacing */
+li {
+    margin-bottom: 6px;
+}
+
+/* Form styling (Bootcamp Registration) */
+.form-fieldset {
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #16212e;
+}
+
+/* Form legend title */
+legend {
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin: 12px 0 4px;
+}
+
+/* Inputs and dropdowns */
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Button styles */
+.button,
+button[type="submit"] {
+    background-color: #3a7ca5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Button hover state */
+.button:hover,
+button:hover {
+    background-color: #17496a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #bbb;
+    padding: 16px 0;
+    border-top: 1px solid #444;
+    margin-top: 40px;
+}
+
+/* 
+   Contact Links (Social media nav)
+ */
+
+#contact nav {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
+/* For DOM-based highlights (e.g. toggled sections) */
+.highlighted {
+    background-color: #f0f8ff;
+    border: 2px dashed #1e90ff;
+    padding: 10px;
+}
