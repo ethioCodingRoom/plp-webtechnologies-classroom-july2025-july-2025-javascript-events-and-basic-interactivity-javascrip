@@ -55,4 +55,4 @@ The main objectives were to enhance user experience by implementing JavaScript-b
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com//ethiocodingroom.git](https://github.com/ethioCodingRoom/plp-webtechnologies-classroom-july2025-july-2025-javascript-events-and-basic-interactivity-javascrip.git)
+   git clone https://github.com/ethioCodingRoom/plp-webtechnologies-classroom-july2025-july-2025-javascript-events-and-basic-interactivity-javascrip.git
